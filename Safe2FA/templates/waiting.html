@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Banking account {% endblock %}
+
+{% block content %}
+<div class="teaser">
+    <div class="container">
+        <h3>Waiting for 2FA</h3>
+        <hr>
+        Waiting for approvement {{ operation_msg }} operation (operation number {{ operation_id }}).
+        <hr>
+        <hr>
+    </div>
+</div>
+
+{% endblock %}

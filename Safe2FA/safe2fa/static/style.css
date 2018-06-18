@@ -1,0 +1,15 @@
+body {
+    width: 90%;
+    height:90%;
+    background-image: url("background.jpg");
+}
+
+.teaser {
+    background: rgba(255, 255, 255, 0.50);
+    padding: 4cm;
+    margin: 1cm;
+    margin-inside: 2cm;
+    border-radius: 5px;
+    align-self: center;
+}
+
